@@ -497,7 +497,7 @@ ul, ol {
 
 .hero-section {
 	position: relative;
-	padding-top: 60px;
+	padding-top: 0px;
 	padding-bottom: 100px;
 }
 .hero-section .container {

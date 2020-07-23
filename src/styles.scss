@@ -2,3 +2,57 @@
 
 /* Importing Bootstrap SCSS file. */
 @import '~bootstrap/scss/bootstrap';
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 320px) {
+    .textInf {
+        font-size: 11px !important;
+      }
+  }
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 420px) {
+    .textInf {
+      font-size: 60px !important;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .textInf {
+      font-size: 40px !important;
+    }
+  }
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    .textInf {
+      font-size: 60px !important;
+    }
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 768px) {
+    .textInf {
+      font-size: 86px !important;
+    }
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 800px) {
+    .textInf {
+      font-size: 86px !important;
+    }
+  }
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    .textInf {
+      font-size: 50px !important;
+    }
+  }
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    .textInf {
+      font-size: 54px!important;
+    }
+  }
+  
